@@ -1,0 +1,24 @@
+h2 {
+    font-size: 32px;
+}
+
+h2:hover {    
+    color: purple;
+}
+
+body {
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    border-top: 10px solid purple;
+  }
+
+img {
+    width: 50%;
+    border-radius: 45%;
+    border: 5px solid blue;
+    padding: 20px;
+}

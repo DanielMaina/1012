@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 
+Introduction to Computing: A Net-centric Approach
+
+=== EECS Fall 2024 ===
+Lassonde School of Engineering
+
+=== Description ===
+Webpage HTML document for Lab 4.
+You should not need to alter this page!
+-->
+<html lang="En">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EECS1012: Lab 4</title>
+  <link rel="stylesheet" type="text/css" href="lab4.css" title="style" /> 
+  <script src="lab4.js" defer="true"></script>
+</head>
+
+<body onload="activateButton()">
+  
+  <header>
+    <h1>Run an Algorithm!</h1>
+  </header>
+  
+  <span class="column">
+    <label for="algorithm">Choose an Algorithm:</label>
+    <select name="algorithm" id="algorithm">
+      <option value="calcChange">Calculate Change</option>
+      <option value="isPositiveMultipleOf4Or7">Is Multiple of 4 or 7</option>
+      <option value="currHour">Current Hour</option>
+      <option value="bits">Number of Bits</option>
+    </select>
+    <p>
+        <label for="input">Input a Number:</label>
+        <input id="input" type="number" min="0" max="100000000000"/>
+    </p>
+	<p><button id="submit">Enter</button></p>
+	<div id="output"><!-- this is where we will print results! --></div>
+  </span>	
+
+</body>
+</html>
